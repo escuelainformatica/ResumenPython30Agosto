@@ -10,9 +10,7 @@ from Ejemplo2 import  funcion2 as f2
                 # f2()
 
 # variables
-
-
-
+from Libro import Libro
 
 entero = 20
 texto = "hola"
@@ -88,6 +86,16 @@ print(johndic['nombre'])
 
 johntuple=("1-9","john",33)
 print(johntuple[1])
+
+# ejercicio libro y herencia
+
+harry=Libro()
+harry.titulo="Harry potter"
+harry.cant_paginas=200
+harry.autor="autor1"
+harry.mostrar()
+
+
 
 
 
