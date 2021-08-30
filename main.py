@@ -95,6 +95,16 @@ harry.cant_paginas=200
 harry.autor="autor1"
 harry.mostrar()
 
+# funciones
+def funcion_nueva():
+    return "funcion nueva"
+print("---ejercicio funcion---")
+print( funcion_nueva() ) # llamando a la funcion
+print( funcion_nueva ) # indicando la funcion
+
+# pasos de la progracion funcional
+variable2=funcion_nueva # la variable2 es la funcion
+print(variable2()) # llamando a la funcion
 
 
 
